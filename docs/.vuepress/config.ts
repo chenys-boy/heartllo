@@ -17,6 +17,6 @@ export default {
 		// 在这里进行配置
 		navbar: navbarConfigFunc(),
 		// github目录
-		repo: 'vuejs/vuepress',
+		repo: 'https://github.com/chenys-boy/heartllo',
 	}),
 }
