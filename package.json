@@ -9,7 +9,7 @@
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
-	"vite-build": "vuepress-vite build docs",
+    "vite-build": "vuepress-vite build docs",
     "vite-serve": "vuepress-vite dev docs",
     "vite-clean-serve": "vuepress-vite dev docs --clean-cache",
     "webpack-build": "vuepress-webpack build docs",
@@ -17,6 +17,7 @@
     "webpack-serve": "vuepress-webpack dev docs"
   },
   "devDependencies": {
+    "@vuepress/plugin-docsearch": "^2.0.0-beta.51",
     "vuepress": "^2.0.0-beta.51",
     "vuepress-plugin-serve": "^2.0.4",
     "vuepress-vite": "^2.0.0-beta.45",

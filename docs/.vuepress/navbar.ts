@@ -17,26 +17,14 @@ function navbarConfigFunc() {
 			text: 'github掘金',
 			link: '/github/',
 		},
-		// 嵌套 Group - 最大深度为 2
-		// 控制元素何时被激活
-		{
-		text: 'Group 2',
-		children: [
-		  {
-			text: 'Always active',
-			link: '/',
-			// 该元素将一直处于激活状态
-			activeMatch: '/',
-		  },
-		  {
-			text: 'Active on /foo/',
-			link: '/not-foo/',
-			// 该元素在当前路由路径是 /foo/ 开头时激活
-			// 支持正则表达式
-			activeMatch: '^/foo/',
-		  },
-		],
-		},
+	//	{
+	//		text: '公众号优秀文章',
+	//		link: '/github/',
+	//	},
+	//	{
+	//		text: '导航集合',
+	//		link: '/guide/',
+	//	},
 		];
 }
 export {
